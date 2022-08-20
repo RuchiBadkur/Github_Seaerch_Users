@@ -1,0 +1,36 @@
+<div class="container center">
+        
+            <form action="submit">
+                <input type="text" placeholder="Search Github Username..." class="searchUser">
+                <button id="search">Search</button>
+            </form>
+            <div class="userinfo">
+            <div class="left">
+                <img src="" alt="user img">
+            </div>
+            
+            <div class="right">
+                <div class="part1 flex">
+                    <h1>GIthub Username</h1>
+                    <small>joined date</small>
+                </div>
+                <div class="part2">
+                    <p>github bio</p>
+                </div>
+                <div class="part3 flex">
+                    <h3>Repos</h3>
+                    <p>0</p>
+                    <h3>Followers</h3>
+                    <p>0</p>
+                    <h3>Following</h3>
+                    <p>0</p>
+                </div>
+                <div class="part4 flex">
+                    <h3>Location</h3>
+                    <h3><a href="http://">Website</a></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
